@@ -1,0 +1,113 @@
+/*Cabecera y  menu de navegacion */
+header{ text-align: center;
+margin-bottom: 20px;
+background-image: url("../img/logo/logo.png");
+}
+#nav{
+    background-color: #249cbd;
+    height: 80px;
+    color: black;
+}
+footer{
+    background-color: #e7e4e4;
+}
+#logo{
+    width: 300px;
+    margin-top: -80px;
+}
+.menu{
+    width: auto;
+    border-radius: 100px;
+    background-color: transparent;
+    height: 30px;
+}
+.menu ul li {
+    display: inline-block;
+}
+.menu ul li a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 6px 6px;
+    color: wheat;
+    font-size: 20px;
+    transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    border: 3px solid transparent;
+    border-radius: 5px;
+}
+.menu ul li a:hover {
+    color: rgba(85, 47, 76, 0.792);
+    font-size: 15px;
+}
+.menu ul li a:target {
+    border-bottom-color: #F44336;
+}
+
+/*Diapositivas*/
+.slider__container{
+    display: grid;
+    grid-template-columns: 50px 1fr 50px;
+    align-items: center;
+    background-color: white;
+    gap: 1em;
+}
+  
+.slider__body{
+    grid-column: 2/3;
+    grid-row: 1/2;
+    opacity: 0;
+    pointer-events: none;
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr max-content;
+    transition: opacity 1.5s;
+}
+  
+.slider__body--show{
+    opacity: 1;
+    pointer-events: unset;
+}
+  
+.slider__img {
+    width: 50%;
+    object-fit: cover;
+    margin: 0 auto;
+}
+.slider__arrow{
+    cursor: pointer;
+    width: 50%;
+}
+.slider__arrow:hover{
+    width: 80%;
+    transition: 0.5s;
+}
+.slider__arrow:nth-of-type(2){
+    justify-self: end;
+}
+h1,h2,h3{
+    text-align: center;
+}
+h4,h5,h6{
+    text-align: center;
+}
+
+/*Estilos de productos*/
+#caja{
+    text-align: center;
+}
+#caja:hover{
+      border-radius: 5px;
+      color: black;
+}
+#destacados{
+    width: 60%;
+    transition: all 0.5s ease-in-out;
+    float: left;
+}
+#destacados:hover{
+    width: 63%;
+    transition: all 1s ease-in-out;
+}
