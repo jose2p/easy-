@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="author" content="Alvaro Dev">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Hojas de estilos -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <!-- Mis estilos -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Titulo del documento -->
+    <title>Easy++ - Tu centro de cuentas</title>
+</head>
+<body>
+    <!-- Cabecera de la pagina -->
+    <header class="container-fluid">
+        <div class="row">
+            <div class="col-6 col-md-2 mb-3">
+                <br><br>
+                <h5>Enlaces Utiles</h5>
+                <ul class="nav flex-column">
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Inicio</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Preguntas Frecuentes</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Sobre Easy++</a></li>
+                </ul>
+            </div>
+            <div class="col-md-8">
+                <img src="img/logo/logo.png" alt="Easy++" id="logo">
+            </div>
+            <div class="col-6 col-md-2 mb-3">
+                <br><br>
+                <h5>Redes Sociales</h5>
+                <ul class="nav flex-column">
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Inicio</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Preguntas Frecuentes</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Sobre Easy++</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12" id="nav">
+                <h6>Una plataforma para asegurar la compra de tus cuentas</h6>
+                <?php include('vistas/menu.html') ?>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="col-md-12">
+		    <h4>Que tenemos</h4>
+			<!-- Slider-->
+			<section class="slider">
+				<div class="slider__container container">
+					<img src="img/slider/bxs-chevrons-left.svg" class="slider__arrow" id="before">
+
+					<section class="slider__body slider__body--show" data-id="1">
+						<img src="img/slider/FreeFire.png" class="slider__img">
+					</section>
+
+					<section class="slider__body" data-id="2">
+						<img src="img/slider/ClashRoyale.png" class="slider__img">
+					</section>
+
+					<section class="slider__body" data-id="3">
+						<img src="img/slider/ClashRoyale1.png" class="slider__img">
+					</section>
+
+					<img src="img/slider/bxs-chevrons-right.svg" class="slider__arrow" id="next">
+				</div>
+			</section>
+		</section>
+	    <!-- Contededor principal-->
+
+	    <div class="container">
+
+		    <div class="row">
+			    <div class="col-md-12">
+			        <h5>Productos destacados</h5>
+			    </div>
+		    </div>
+
+		    <!-- Productos -->
+
+		    <div class="row">
+			    <!-- -->
+			    <div class="col-md-6" id="caja">
+				    <img src="img/cuenta_ven/2.jpg" id="destacados">
+				    <br><br>
+					<em>Cuenta Free Fire</em>
+					<h5>10 USD</h5>
+                    <h6>Plataforma: Android - IOS</h6>
+                    <button class="btn btn-primary">Ver detalles</button><br><br>
+			    </div>
+
+			    <!-- -->
+			    <div class="col-md-6" id="caja">
+				    <img src="img/cuenta_ven/1.jpg" id="destacados">
+				    <br><br>
+					<em>Cuenta Clash Royale</em>
+                    <h5>10 USD</h5>
+					<h6>Plataforma: Android - IOS</h6>
+                    <button class="btn btn-primary">Ver detalles</button><br><br>
+			    </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="container-fluid">		
+        <footer class="py-5">
+            <div class="row">
+                <div class="col-6 col-md-2 mb-3">
+                    <h5>Sobre Nosotros</h5>
+                    <ul class="nav flex-column">
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Inicio</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Preguntas Frecuentes</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Sobre Easy++</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-6 col-md-2 mb-3">
+                    <h5>Ayuda y contacto</h5>
+                    <ul class="nav flex-column">
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Inicio</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Preguntas Frecuentes</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Sobre Easy++</a></li>
+                    </ul>
+                </div>
+                <div class="col-6 col-md-2 mb-3">
+                    <h5>Enlaces Útiles</h5>
+                    <ul class="nav flex-column">
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Inicio</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Preguntas Frecuentes</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Sobre Easy++</a></li>
+                    </ul>
+                </div>
+
+
+                <div class="col-md-5 offset-md-1 mb-3">
+                    <form>
+                        <h5>Subscribete a nuestro boletín</h5>
+                        <p>No te pierdas las mejores promociones.</p>
+                        <div class="d-flex flex-column flex-sm-row w-100 gap-2">
+                            <label for="newsletter1" class="visually-hidden">Email address</label>
+                            <input id="newsletter1" type="text" class="form-control" placeholder="Email address">
+                            <button class="btn btn-primary" type="button">Subscribirse</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+            <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
+                <p>&copy; 2022 Company, Inc. Todos los derechos reservados.</p>
+                <ul class="list-unstyled d-flex">
+                    <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#twitter"/></svg></a></li>
+                    <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#instagram"/></svg></a></li>
+                    <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#facebook"/></svg></a></li>
+                </ul>
+            </div>
+        </footer>
+	</footer>
+
+
+    <!-- Script Automatico para el Slider -->
+    <script>
+	    const sliders = [...document.querySelectorAll('.slider__body')];
+	    setInterval(function(){
+		    changePosition(1);
+	    }, 7000);
+	    function changePosition(change) {
+		    const currentElement = Number(document.querySelector('.slider__body--show').dataset.id);
+		    value = currentElement;
+		    value+=change;
+		    if (value === 0 || value == sliders.length+1) {
+			    value = value === 0 ? sliders.length : 1;
+		    }
+		    sliders[currentElement-1].classList.toggle('slider__body--show');
+		    sliders[value-1].classList.toggle('slider__body--show');
+	    }
+    </script>
+
+    <!-- Script Javascript -->
+	<script src="js/script.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery-3.6.0.min.js"></script>
+</body>
+</html>
